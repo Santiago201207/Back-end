@@ -1,0 +1,17 @@
+Gametrack es una pagina donde puedes descubrir videojuegos, calificarlos y guardarlos para despues. La idea es tener un lugar sencillo y chevere donde puedas explorar juegos populares, leer y escribir reseñas, y armar tu propia lista de deseos con los titulos que quieres jugar mas adelante. Todo lo que haces reseñas, calificaciones y juegos guardados queda almacenado en tu dispositivo, asi que cada vez que vuelvas, ahi estara todo tal cual lo dejaste.
+Funciones
+Pagina de inicio
+-Puedes ver juegos populares que se cargan desde una API.
+-Los juegos aparecen en tarjetas con sus calificaciones.
+-Tambien puedes usar la barra de busqueda para encontrar juegos.
+-Tienes filtros para ordenarlos por popularidad, genero, plataforma o año.
+-Puedes leer reseñas de otros usuarios y escribir las tuyas.
+-Pagina de lista de deseos
+-Guarda juegos que quieres jugar mas adelante.
+-Ve toda la info de cada juego: descripcion, fecha de lanzamiento, calificacion, reseñas, etc.
+-Puedes dejar tu propia reseña y puntuar el juego con 1 a 5 estrellas.
+-Todo se guarda de forma local
+Desarrollado con
+-HTML para la estructura de la pagina.
+-CSS y Tailwind para los estilos.
+-JavaScript para toda la parte interactiva, la API y guardar datos localmente.

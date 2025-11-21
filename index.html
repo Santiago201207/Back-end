@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Fronted/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+     <img src="Fronted/juegos.jpg" alt="" style="height: 40px;" class="logo">
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center " style="background-color: 484c51;height: 50px;">
+      <a  href="index.html" class="mr-5 hover:text-white">Home</a>
+      <a href="wishlist.html" class="mr-5 hover:text-white">Whishlist </a>
+
+
+      <div style="margin-left: 8px;margin-top: 8px;"class="ml-auto flex items-center">
+  <input type="text"   class="searchme">
+  <button id="search"  style="margin-top: 0px; margin-left: 7px;" class="khem" ><i class="fa-regular fa-paper-plane"></i></button>
+        </div>
+        
+    </nav>
+  </div>
+</header>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto">
+<div class="flex flex-col text-center w-full">
+  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4" style="color: #fed23b;">
+    GameTrack
+  </h1>
+  <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: white; margin-bottom: 0;">
+    Esta página es básicamente un lugar para ver juegos, dejar tus reseñas y agregar los que te gustan o quieres jugar después. También puedes ver las opiniones de otros, descubrir títulos nuevos y compartir lo que te parecieron tus juegos favoritos. Todo es súper fácil de usar y está pensado para cualquier gamer que quiera organizar lo que juega.  </p>
+</div>
+
+</section>
+
+
+
+
+<div class="dropdown">
+<div   class="dropdown-btn">
+Juegos de filtro
+</div>    
+  </button>
+  <div class="dropdown-menu">
+    <div class="dropdown-header">
+      <p class="name">Todos los juegos disponibles</p>
+     
+    </div>
+    <a href="#">PS5/PS4</a>
+    <a href="#">Xbox</a>
+    <a href="#">Nintendo</a>
+    <div class="dropdown-footer">
+      <a href="#">Accion</a>
+       <a href="#">Aventura</a>
+      <a href="#">Rol-Play</a>
+  </div>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+    <h2 class="heading-games">Descubre algo nuevo de tu agrado</h2>
+    <div id="game-slider" class="slider"></div>
+  </div>
+  <div class="container">
+  <h2 class="heading-games">Nuevos lanzamientos</h2>
+  <div id="new-releases-slider" class="slider"></div>
+</div>
+<div class="container">
+  <h2 class="heading-games">Juegos mejor calificados</h2>
+  <div id="top-rated-slider" class="slider"></div>
+</div>
+<div class="container">
+  <h2 class="heading-games">Novedoso</h2>
+  <div id="upcoming-slider" class="slider"></div>
+</div>
+
+
+<div id="gameModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div id="modal-body"></div>
+        <div id="game-slider" class="slider"></div>
+
+  </div>
+</div>
+
+<div id="wishlist-section">
+  <h2 class="add"></h2>
+  <ul id="wishlist"></ul>
+      <div id="game-slider" class="slider"></div>
+</div>
+
+</div>
+  <script src="Fronted/script.js"></script>
+<br>
+
+<script src="Fronted/script.js"></script>
+</body>
+</html>
